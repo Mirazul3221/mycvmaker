@@ -11,7 +11,7 @@ const Section01 = () => {
     <div className="p-10">
       <div className="text-center mt-10">
         <h2 className="text-2xl">CREATE A CV IN MINUTES</h2>
-        <h3 className="text-5xl">Our Features.</h3>
+        <h3 className="text-5xl font-medium">Our Features.</h3>
       </div>
       <div className=" grid grid-cols-3 mt-20 gap-10">
         <div className="item group hover:bg-white duration-200 hover:shadow-lg rounded-md cursor-pointer hover:-translate-y-2 px-6 py-10 bg-[#fff5ff]">
