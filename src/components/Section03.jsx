@@ -86,6 +86,10 @@ const Section03 = () => {
         voluptatibus illo hic quia asperiores necessitatibus a corporis aliquam.
         Eveniet itaque ut doloribus.
       </p>
+
+      <div className="h-screen bg-gray-500">sfvzdf</div>
+      <div className="h-screen bg-gray-500">sfvzdf</div>
+      <div className="h-screen bg-gray-500">sfvzdf</div>
     </div>
   );
 };
