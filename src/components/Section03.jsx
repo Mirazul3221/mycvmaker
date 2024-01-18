@@ -12,6 +12,8 @@ const Section03 = () => {
     gsap.to(ele, {
       scrollTrigger: {
         trigger: mainDiv,
+        start: "top center",
+        markers: true,
       },
       x: 200,
     });
@@ -22,6 +24,7 @@ const Section03 = () => {
       <div ref={ref} className="w-28 h-28 bg-amber-500">
         I am amber
       </div>
+      <div className="h-screen bg-gray-500">sfvzdf</div>
     </div>
   );
 };
