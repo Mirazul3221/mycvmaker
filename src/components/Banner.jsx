@@ -11,7 +11,7 @@ const Banner = () => {
   useEffect(() => {
     // const main = ref.current;
     const desktop = ref1.current;
-    // const laptop = ref2.current;
+    const laptop = ref2.current;
     // const mobile = ref3.current;
     gsap.registerPlugin(ScrollTrigger);
 
