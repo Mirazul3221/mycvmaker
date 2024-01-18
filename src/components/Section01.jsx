@@ -37,7 +37,7 @@ const Section01 = () => {
             </p>
 
             <div className="btn py-2 group-hover:bg-[#5D61BF] group-hover:text-white duration-300 mx-auto px-6 border w-fit mt-4 border-[#5D61BF] text-[#5D61BF] rounded-md">
-              <a href="#">Create New Resume</a>
+              <a href="./hello">Create New Resume</a>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Section01 = () => {
             </p>
 
             <div className="btn py-2 group-hover:bg-[#5D61BF] group-hover:text-white duration-300 mx-auto px-6 border w-fit mt-4 border-[#5D61BF] text-[#5D61BF] rounded-md">
-              <a href="#">Create New Letter</a>
+              <a href="./ok">Create New Letter</a>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ const Section01 = () => {
             </p>
 
             <div className="btn py-2 group-hover:bg-[#5D61BF] group-hover:text-white duration-300 mx-auto px-6 border w-fit mt-4 border-[#5D61BF] text-[#5D61BF] rounded-md">
-              <a href="#">Create New Website</a>
+              <a href="./oket">Create New Website</a>
             </div>
           </div>
         </div>

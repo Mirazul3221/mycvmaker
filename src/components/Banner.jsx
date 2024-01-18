@@ -14,42 +14,51 @@ const Banner = () => {
     const laptop = ref2.current;
     const mobile = ref3.current;
     gsap.registerPlugin(ScrollTrigger);
+
+    // gsap.to(desktop, {
+    //   x:500
+    // })
     const tl = gsap.timeline();
 
-    tl.to(desktop, {
-      scrollTrigger: {
-        trigger: main,
-        start: "top 50%",
-        end: "center 10%",
-        scrub: true,
-      },
+    gsap.from(desktop, {
+      // scrollTrigger: {
+      //   trigger: desktop,
+      //   start: "top top",
+      //   end: "center 10%",
+      //   scrub: true,
+      //   markers: true,
+      // },
       y: -100,
-      scale: 1.2,
-      opacity: 0,
+      scale: 1.5,
+      // opacity: 0,
+      ease: "power3",
+      animation: 5,
     });
-    tl.to(laptop, {
-      scrollTrigger: {
-        trigger: main,
-        start: "top 50%",
-        end: "center 10%",
-        scrub: true,
-      },
-      x: 100,
-      y: -500,
-      scale: 1.2,
-      opacity: 0,
-    });
-    tl.to(mobile, {
-      scrollTrigger: {
-        trigger: main,
-        start: "top 50%",
-        end: "top 10%",
-        scrub: true,
-      },
-      x: -500,
-      scale: 1.2,
-      opacity: 0,
-    });
+    // tl.to(laptop, {
+    //   scrollTrigger: {
+    //     trigger: main,
+    //     start: "top 50%",
+    //     end: "center 10%",
+    //     scrub: true,
+    //   },
+    //   x: 100,
+    //   y: -500,
+    //   scale: 1.2,
+    //   opacity: 0,
+    //   ease: "power3",
+    // });
+    // tl.to(mobile, {
+    //   scrollTrigger: {
+    //     trigger: main,
+    //     start: "top 50%",
+    //     end: "top 10%",
+    //     scrub: true,
+    //   },
+    //   x: -500,
+    //   scale: 1.2,
+    //   opacity: 0,
+    //   ease: "power3",
+    // });
   }, []);
 
   return (
@@ -75,7 +84,7 @@ const Banner = () => {
           <div className="mt-4">
             <a
               className="py-2 px-6 bg-[#5D61BF] text-white rounded-md"
-              href="#"
+              href="./hello"
             >
               GET START
             </a>

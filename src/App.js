@@ -3,16 +3,18 @@ import Section01 from "./components/Section01";
 import Section02 from "./components/Section02";
 import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
+import useLocoScroll from "./useLocoScroll";
 
 function App() {
+  useLocoScroll(true);
   return (
-    <div className="App mx-20">
+    <main className="App mx-20 main-container">
       <Header />
       <Banner />
       <Section01 />
       <Section02 />
       <Footer />
-    </div>
+    </main>
   );
 }
 

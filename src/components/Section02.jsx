@@ -56,10 +56,10 @@ const Section02 = () => {
 
 export const Item = ({ icone, heading, text, color }) => {
   return (
-    <div className="flex relative flex-col bg-white px-8 py-10 group cursor-pointer duration-500 hover:-translate-y-6">
+    <div className="flex relative flex-col bg-white px-8 py-10 group cursor-pointer duration-1000 hover:-translate-y-2">
       <div className="absolute top-0 -z-10 left-0 w-0 group-hover:w-full h-full duration-500 group-hover:bg-[#5D61BF]"></div>
       <div
-        className={`icone w-20 h-20 rounded-full ${color} hover:bg-white duration-500 group-hover:rotate-[360deg] flex justify-center items-center`}
+        className={`icone w-20 h-20 rounded-full ${color} group-hover:bg-white duration-500 group-hover:rotate-[360deg] flex justify-center items-center`}
       >
         {icone}
       </div>
