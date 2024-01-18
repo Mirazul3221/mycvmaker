@@ -9,10 +9,10 @@ const Banner = () => {
   const ref3 = useRef(null);
 
   useEffect(() => {
-    const main = ref.current;
+    // const main = ref.current;
     const desktop = ref1.current;
-    const laptop = ref2.current;
-    const mobile = ref3.current;
+    // const laptop = ref2.current;
+    // const mobile = ref3.current;
     gsap.registerPlugin(ScrollTrigger);
 
     // gsap.to(desktop, {
