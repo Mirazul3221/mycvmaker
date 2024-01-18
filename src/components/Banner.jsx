@@ -32,7 +32,7 @@ const Banner = () => {
       scale: 1.5,
       // opacity: 0,
       ease: "power3",
-      animation: 5,
+      duration: 2,
     });
     // tl.to(laptop, {
     //   scrollTrigger: {
