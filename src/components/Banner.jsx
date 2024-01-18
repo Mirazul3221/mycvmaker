@@ -18,9 +18,9 @@ const Banner = () => {
     // gsap.to(desktop, {
     //   x:500
     // })
-    // const tl = gsap.timeline();
+    const tl = gsap.timeline();
 
-    gsap.from(desktop, {
+    tl.from(desktop, {
       // scrollTrigger: {
       //   trigger: desktop,
       //   start: "top top",
@@ -30,23 +30,24 @@ const Banner = () => {
       // },
       y: -100,
       scale: 1.5,
-      // opacity: 0,
+      opacity: 0,
       ease: "power3",
       duration: 2,
     });
-    // tl.to(laptop, {
-    //   scrollTrigger: {
-    //     trigger: main,
-    //     start: "top 50%",
-    //     end: "center 10%",
-    //     scrub: true,
-    //   },
-    //   x: 100,
-    //   y: -500,
-    //   scale: 1.2,
-    //   opacity: 0,
-    //   ease: "power3",
-    // });
+    tl.from(laptop, {
+      // scrollTrigger: {
+      //   trigger: main,
+      //   start: "top 50%",
+      //   end: "center 10%",
+      //   scrub: true,
+      // },
+      x: 100,
+      y: -500,
+      scale: 1.2,
+      opacity: 0,
+      ease: "power3",
+      duration: 2,
+    });
     // tl.to(mobile, {
     //   scrollTrigger: {
     //     trigger: main,
