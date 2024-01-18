@@ -12,7 +12,7 @@ const Banner = () => {
     // const main = ref.current;
     const desktop = ref1.current;
     const laptop = ref2.current;
-    // const mobile = ref3.current;
+    const mobile = ref3.current;
     gsap.registerPlugin(ScrollTrigger);
 
     // gsap.to(desktop, {
@@ -48,18 +48,18 @@ const Banner = () => {
       ease: "power3",
       duration: 2,
     });
-    // tl.to(mobile, {
-    //   scrollTrigger: {
-    //     trigger: main,
-    //     start: "top 50%",
-    //     end: "top 10%",
-    //     scrub: true,
-    //   },
-    //   x: -500,
-    //   scale: 1.2,
-    //   opacity: 0,
-    //   ease: "power3",
-    // });
+    tl.from(mobile, {
+      // scrollTrigger: {
+      //   trigger: main,
+      //   start: "top 50%",
+      //   end: "top 10%",
+      //   scrub: true,
+      // },
+      x: -500,
+      scale: 1.2,
+      opacity: 0,
+      ease: "power3",
+    });
   }, []);
 
   return (
