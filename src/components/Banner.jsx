@@ -32,6 +32,7 @@ const Banner = () => {
       scale: 1.5,
       opacity: 0,
       ease: "power3",
+      duration: 1,
     });
     tl.from(laptop, {
       // scrollTrigger: {
@@ -46,6 +47,7 @@ const Banner = () => {
       scale: 1.2,
       opacity: 0,
       ease: "power3",
+      duration: 1,
     });
     tl.from(mobile, {
       // scrollTrigger: {
@@ -55,6 +57,7 @@ const Banner = () => {
       //   scrub: true,
       // },
       x: -500,
+      duration: 1,
       rotate: -360,
       scale: 1.2,
       opacity: 0,
