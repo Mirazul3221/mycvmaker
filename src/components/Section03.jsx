@@ -14,8 +14,10 @@ const Section03 = () => {
         trigger: mainDiv,
         start: "top center",
         markers: true,
+        scrub: true,
       },
-      x: 200,
+      x: 700,
+      rotate: 360,
     });
   }, []);
 
