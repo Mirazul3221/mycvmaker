@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 import "../node_modules/locomotive-scroll/dist/locomotive-scroll.css";
 import gsap from "gsap";

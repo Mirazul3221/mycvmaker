@@ -18,7 +18,7 @@ const Banner = () => {
     // gsap.to(desktop, {
     //   x:500
     // })
-    const tl = gsap.timeline();
+    // const tl = gsap.timeline();
 
     gsap.from(desktop, {
       // scrollTrigger: {
