@@ -61,13 +61,7 @@ const Footer = () => {
                   <a href="./">Cover Letter</a>
                 </li>
                 <li>
-                  <a href="/"></a>
-                </li>
-                <li>
                   <a href="./">Word Template</a>
-                </li>
-                <li>
-                  <a href="/"></a>
                 </li>
                 <li>
                   <a href="./">Blog</a>
@@ -116,9 +110,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="./">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="/"></a>
                 </li>
                 <li>
                   <a href="./">Affiliate Program</a>
