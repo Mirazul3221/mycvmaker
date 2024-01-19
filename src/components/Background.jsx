@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import img from "../back-img/background.jpg";
+// import img from "../back-img/background.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 const Background = () => {
