@@ -22,11 +22,13 @@ const Background = () => {
   }, []);
 
   return (
-    <div ref={ref} className="banner_img min-h-screen">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. In saepe vero
-      quo consectetur delectus sed ratione consequuntur aspernatur, cum
-      necessitatibus fuga molestiae! Aliquid aperiam velit, magnam saepe ipsam
-      dolores ratione.
+    <div className="h-screen">
+      <div ref={ref} className="banner_img min-h-screen">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In saepe vero
+        quo consectetur delectus sed ratione consequuntur aspernatur, cum
+        necessitatibus fuga molestiae! Aliquid aperiam velit, magnam saepe ipsam
+        dolores ratione.
+      </div>
     </div>
   );
 };
