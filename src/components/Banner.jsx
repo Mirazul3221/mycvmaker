@@ -32,7 +32,8 @@ const Banner = () => {
       scale: 2.5,
       opacity: 0,
       ease: "power3",
-      duration: 0.2,
+      duration: 1,
+      delay: 0.5,
     });
     gsap.from(laptop, {
       // scrollTrigger: {
@@ -47,7 +48,8 @@ const Banner = () => {
       scale: 2.5,
       opacity: 0,
       ease: "power3",
-      duration: 0.5,
+      duration: 1,
+      delay: 1,
     });
     gsap.from(mobile, {
       // scrollTrigger: {
@@ -62,6 +64,7 @@ const Banner = () => {
       scale: 2.5,
       opacity: 0,
       ease: "power3",
+      delay: 1.5,
     });
   }, []);
 
