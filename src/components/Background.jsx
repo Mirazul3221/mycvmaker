@@ -9,18 +9,18 @@ const Background = () => {
     gsap.registerPlugin(ScrollTrigger);
     const containerRef = ref.current;
     const currentRef = testRef.current;
-    console.log(containerRef);
-    gsap.to(containerRef, {
-      scrollTrigger: {
-        trigger: containerRef,
-        start: "top top",
-        end: 12000,
-        pin: true,
-        scrub: true,
-        // markers: true,
-      },
-      x: 7000,
-    });
+    console.log(currentRef);
+    // gsap.to(containerRef, {
+    //   scrollTrigger: {
+    //     trigger: containerRef,
+    //     start: "top top",
+    //     end: 12000,
+    //     pin: true,
+    //     scrub: true,
+    //     // markers: true,
+    //   },
+    //   x: 7000,
+    // });
     gsap.to(currentRef, {
       scrollTrigger: {
         trigger: currentRef,
@@ -35,14 +35,16 @@ const Background = () => {
   }, []);
 
   return (
-    <div className="h-screen">
+    <div className="min-h-screen">
       <div ref={ref} className="banner_img min-h-screen">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. In saepe vero
         quo consectetur delectus sed ratione consequuntur aspernatur, cum
         necessitatibus fuga molestiae! Aliquid aperiam velit, magnam saepe ipsam
         dolores ratione.
       </div>
-      <div ref={testRef} className="w-20 h-20 bg-amber-500"></div>
+      <div ref={testRef} className="w-20 h-20 bg-amber-500">
+        ikdsyr
+      </div>
     </div>
   );
 };
