@@ -12,7 +12,7 @@ const LatestArticles = () => {
           <div className="img h-[300px] overflow-hidden flex justify-center items-center duration-500 z-20">
             <img
               className="group-hover:scale-125 h-full duration-500 group-hover:rotate-[15deg]"
-              src="./images/blog-img.png"
+              src="./images/gig1.jpg"
               alt=""
             />
           </div>
@@ -43,7 +43,7 @@ const LatestArticles = () => {
           <div className="img h-[300px] overflow-hidden flex justify-center items-center duration-500 z-20">
             <img
               className="group-hover:scale-125 h-full duration-500 group-hover:rotate-[15deg]"
-              src="./images/blog-img.png"
+              src="./images/gig2.jpg"
               alt=""
             />
           </div>
@@ -74,7 +74,7 @@ const LatestArticles = () => {
           <div className="img h-[300px] overflow-hidden flex justify-center items-center duration-500 z-20">
             <img
               className="group-hover:scale-125 h-full duration-500 group-hover:rotate-[15deg]"
-              src="./images/blog-img.png"
+              src="./images/gig6.jpg"
               alt=""
             />
           </div>
@@ -105,7 +105,7 @@ const LatestArticles = () => {
           <div className="img h-[300px] overflow-hidden flex justify-center items-center duration-500 z-20">
             <img
               className="group-hover:scale-125 h-full duration-500 group-hover:rotate-[15deg]"
-              src="./images/blog-img.png"
+              src="./images/gig3.jpg"
               alt=""
             />
           </div>
@@ -136,7 +136,7 @@ const LatestArticles = () => {
           <div className="img h-[300px] overflow-hidden flex justify-center items-center duration-500 z-20">
             <img
               className="group-hover:scale-125 h-full duration-500 group-hover:rotate-[15deg]"
-              src="./images/blog-img.png"
+              src="./images/gig5.jpg"
               alt=""
             />
           </div>
@@ -167,7 +167,7 @@ const LatestArticles = () => {
           <div className="img h-[300px] overflow-hidden flex justify-center items-center duration-500 z-20">
             <img
               className="group-hover:scale-125 h-full duration-500 group-hover:rotate-[15deg]"
-              src="./images/blog-img.png"
+              src="./images/gig4.jpg"
               alt=""
             />
           </div>
