@@ -134,7 +134,7 @@ const Footer = () => {
                   <a href="./">Terms & Conditions</a>
                 </li>
                 <li>
-                  <a href="./">Sponsorship Program</a>
+                  <a href="./Sponsorship">Sponsorship Program</a>
                 </li>
               </ul>
             </div>
