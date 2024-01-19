@@ -12,10 +12,12 @@ const Background = () => {
       scrollTrigger: {
         trigger: containerRef,
         start: "top top",
-        end: 5000,
+        end: 12000,
         pin: true,
+        scrub: true,
         markers: true,
       },
+      x: 7000,
     });
   }, []);
 
