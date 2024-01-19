@@ -4,7 +4,7 @@ import { GiArchiveResearch } from "react-icons/gi";
 import { BiBook } from "react-icons/bi";
 const Section02 = () => {
   return (
-    <div className="bg-[#F4F7FC] px-10 py-20">
+    <div className="bg-[#F4F7FC] mx-20 px-10 py-20">
       <div className="text-center mt-10">
         <h2 className="text-2xl">HOW IT WORKS</h2>
         <h3 className="text-5xl font-medium w-5/12 mx-auto">

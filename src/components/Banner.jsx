@@ -66,7 +66,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div>
+    <div className="mx-20">
       <h2 className="text-lg font-medium text-[#5D61BF]">
         WELCOME TO MY CV CREATOR
       </h2>

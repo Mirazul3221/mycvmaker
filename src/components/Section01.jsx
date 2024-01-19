@@ -8,7 +8,7 @@ import { FaFileSignature } from "react-icons/fa6";
 import { SiFiles } from "react-icons/si";
 const Section01 = () => {
   return (
-    <div className="p-10">
+    <div className="p-10 mx-20">
       <div className="text-center mt-10">
         <h2 className="text-2xl">CREATE A CV IN MINUTES</h2>
         <h3 className="text-5xl font-medium">Our Features.</h3>

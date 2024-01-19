@@ -10,12 +10,12 @@ import useLocoScroll from "./useLocoScroll";
 function App() {
   useLocoScroll(true);
   return (
-    <main className="App mx-20 main-container">
+    <main className="App main-container">
       <Header />
       <Banner />
       <Section01 />
       <Section02 />
-      <Section03 />
+      {/* <Section03 /> */}
       {/* <Section04 /> */}
       <Footer />
     </main>
