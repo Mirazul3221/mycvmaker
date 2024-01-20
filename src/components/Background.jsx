@@ -41,7 +41,7 @@ const Background = () => {
         className="banner_img min-h-screen flex justify-center items-center overflow-hidden"
       >
         <div ref={navBox} className="ml-[1500px]">
-          <p>
+          <p className="w-1/2 text-white">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. In saepe
             vero quo consectetur delectus sed ratione kconsequuntur aspernatur,
             cum necessitatibus fuga molestiae!jhjhn
