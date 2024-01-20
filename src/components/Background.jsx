@@ -9,7 +9,7 @@ const Background = () => {
     gsap.registerPlugin(ScrollTrigger);
     const containerRef = ref.current;
     const pinBox = containerRef.offsetWidth;
-    // const navigate = navBox.current;
+    const navigate = navBox.current;
     console.log(pinBox);
     gsap.to(containerRef, {
       scrollTrigger: {
@@ -20,19 +20,18 @@ const Background = () => {
         scrub: true,
         markers: true,
       },
-      x: 600,
     });
-    // gsap.to(navigate, {
-    //   scrollTrigger: {
-    //     trigger: navigate,
-    //     start: "top top",
-    //     end: pinBox,
-    //     pin: true,
-    //     scrub: true,
-    //     // markers: true,
-    //   },
-    //   x: -7000,
-    // });
+    gsap.to(navigate, {
+      scrollTrigger: {
+        trigger: navigate,
+        start: "top top",
+        end: 5 * pinBox,
+        pin: true,
+        scrub: true,
+        // markers: true,
+      },
+      x: -1500,
+    });
   }, []);
 
   return (
@@ -41,7 +40,7 @@ const Background = () => {
         ref={ref}
         className="banner_img min-h-screen flex justify-center items-center overflow-hidden"
       >
-        <div ref={navBox} className="ml-[1200px]">
+        <div ref={navBox} className="ml-[1500px]">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. In saepe
             vero quo consectetur delectus sed ratione kconsequuntur aspernatur,
