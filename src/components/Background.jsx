@@ -38,14 +38,28 @@ const Background = () => {
     <div className="min-h-screen">
       <div
         ref={ref}
-        className="banner_img h-screen flex justify-center items-center overflow-hidden"
+        className="banner_img h-screen flex justify-center items-center overflow-hidden relative"
       >
-        <div ref={navBox} className="ml-[1500px]">
-          <p className="w-1/2 text-white">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In saepe
-            vero quo consectetur delectus sed ratione kconsequuntur aspernatur,
-            cum necessitatibus fuga molestiae!jhjhn
-          </p>
+        <div ref={navBox} className="ml-[1500px] w-ful h-full">
+          <div className="left w-1/2">
+            <h2 className="text-6xl text-[#212529] font-semibold">
+              Get Better Solution For <br /> Your Resume.
+            </h2>
+            <p className="text-white">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+              et voluptas magni ullam eos qui, velit sapiente consectetur
+              placeat, magnam harum a blanditiis! Rem pariatur atque corrupti
+              aut sit et?
+            </p>
+            <div className="mt-4">
+              <a
+                className="py-2 px-6 bg-[#5D61BF] text-white rounded-md"
+                href="./hello"
+              >
+                ORDER A RESUME NOW
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
