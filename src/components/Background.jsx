@@ -42,7 +42,7 @@ const Background = () => {
       >
         <div
           ref={navBox}
-          className="ml-[1500px] w-full flex justify-center items-center h-full"
+          className="ml-[1500px] w-screen flex justify-center items-center h-full"
         >
           <div className="left">
             <h2 className="text-6xl text-[#212529] font-semibold">
