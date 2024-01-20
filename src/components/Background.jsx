@@ -15,7 +15,7 @@ const Background = () => {
       scrollTrigger: {
         trigger: containerRef,
         start: "top top",
-        end: "bottom 100%",
+        end: 2 * pinBox,
         pin: true,
         scrub: true,
         markers: true,
