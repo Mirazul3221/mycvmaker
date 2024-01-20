@@ -44,7 +44,7 @@ const Background = () => {
           ref={navBox}
           className="ml-[1500px] w-ful flex justify-center items-center h-full"
         >
-          <div className="left w-1/2">
+          <div className="left">
             <h2 className="text-6xl text-[#212529] font-semibold">
               Get Better Solution For <br /> Your Resume.
             </h2>
