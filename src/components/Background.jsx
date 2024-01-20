@@ -38,7 +38,7 @@ const Background = () => {
     <div className="min-h-screen">
       <div
         ref={ref}
-        className="banner_img min-h-screen flex justify-center items-center overflow-hidden"
+        className="banner_img h-screen flex justify-center items-center overflow-hidden"
       >
         <div ref={navBox} className="ml-[1500px]">
           <p className="w-1/2 text-white">
