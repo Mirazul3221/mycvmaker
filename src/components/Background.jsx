@@ -15,7 +15,7 @@ const Background = () => {
       scrollTrigger: {
         trigger: containerRef,
         start: "top top",
-        end: pinBox,
+        end: pinBox + 500,
         pin: true,
         scrub: true,
         markers: true,
@@ -24,7 +24,7 @@ const Background = () => {
     gsap.to(navigate, {
       scrollTrigger: {
         trigger: navigate,
-        start: "top center",
+        start: "top top",
         end: pinBox,
         pin: true,
         scrub: true,
