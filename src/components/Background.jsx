@@ -36,11 +36,11 @@ const Background = () => {
 
   return (
     <div className="min-h-screen">
-      <div ref={ref} className="banner_img min-h-screen">
+      {/* <div ref={ref} className="banner_img min-h-screen">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. In saepe vero
         quo consectetur delectus sed ratione kconsequuntur aspernatur, cum
         necessitatibus fuga molestiae!jhjhn
-      </div>
+      </div> */}
       <div ref={testRef} className="w-20 h-20 bg-amber-500">
         ikdsyr
       </div>

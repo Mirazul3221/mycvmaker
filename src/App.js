@@ -10,7 +10,7 @@ import Header from "./components/common/Header";
 import useLocoScroll from "./useLocoScroll";
 
 function App() {
-  useLocoScroll(true);
+  // useLocoScroll(true);
   return (
     <main className="App main-container">
       <Header />
