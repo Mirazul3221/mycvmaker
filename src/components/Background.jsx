@@ -24,7 +24,7 @@ const Background = () => {
     gsap.to(navigate, {
       scrollTrigger: {
         trigger: navigate,
-        start: "center center",
+        start: "top top",
         end: 4 * pinBox,
         pin: true,
         scrub: true,
