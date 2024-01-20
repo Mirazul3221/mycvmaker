@@ -40,10 +40,7 @@ const Background = () => {
         ref={ref}
         className="banner_img h-screen flex justify-center items-center overflow-hidden relative"
       >
-        <div
-          ref={navBox}
-          className="ml-[1500px] w-screen flex justify-center items-center h-full"
-        >
+        <div ref={navBox} className="ml-[1500px] w-screen h-full">
           <div className="left">
             <h2 className="text-6xl text-[#212529] font-semibold">
               Get Better Solution For <br /> Your Resume.
