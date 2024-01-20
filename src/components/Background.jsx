@@ -30,7 +30,7 @@ const Background = () => {
         scrub: true,
         // markers: true,
       },
-      x: -1500,
+      x: -1000,
     });
   }, []);
 
@@ -40,7 +40,10 @@ const Background = () => {
         ref={ref}
         className="banner_img h-screen flex justify-center items-center overflow-hidden relative"
       >
-        <div ref={navBox} className="ml-[1500px] w-ful h-full">
+        <div
+          ref={navBox}
+          className="ml-[1500px] w-ful flex justify-center items-center h-full"
+        >
           <div className="left w-1/2">
             <h2 className="text-6xl text-[#212529] font-semibold">
               Get Better Solution For <br /> Your Resume.
