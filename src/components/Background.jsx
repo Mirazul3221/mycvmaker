@@ -18,7 +18,7 @@ const Background = () => {
         end: 4 * pinBox,
         pin: true,
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     });
     gsap.to(navigate, {

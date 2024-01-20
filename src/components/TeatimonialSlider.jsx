@@ -11,7 +11,6 @@ const TeatimonialSlider = () => {
     centerPadding: "60px",
     slidesToScroll: 1,
     autoplay: true,
-    infinite: true,
     responsive: [
       {
         breakpoint: 1024,
