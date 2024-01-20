@@ -1,5 +1,6 @@
 import Background from "./components/Background";
 import Banner from "./components/Banner";
+import Counter from "./components/Counter";
 import DeviceApp from "./components/DeviceApp";
 import LatestArticles from "./components/LatestArticles";
 import Section01 from "./components/Section01";
@@ -21,6 +22,7 @@ function App() {
       {/* <Section03 /> */}
       {/* <Section04 /> */}
       <LatestArticles />
+      <Counter />
       <Background />
       {/* <div className="h-screen"></div> */}
       <DeviceApp />
