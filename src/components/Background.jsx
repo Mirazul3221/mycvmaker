@@ -7,13 +7,14 @@ const Background = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const containerRef = ref.current;
+    const pinBox = containerRef.offsetWidth;
     // const currentRef = testRef.current;
-    // console.log(currentRef);
+    console.log(pinBox);
     gsap.to(containerRef, {
       scrollTrigger: {
         trigger: containerRef,
         start: "top top",
-        end: 12000,
+        end: pinBox,
         pin: true,
         scrub: true,
         markers: true,
