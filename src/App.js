@@ -1,5 +1,6 @@
 import Background from "./components/Background";
 import Banner from "./components/Banner";
+import DeviceApp from "./components/DeviceApp";
 import LatestArticles from "./components/LatestArticles";
 import Section01 from "./components/Section01";
 import Section02 from "./components/Section02";
@@ -22,6 +23,7 @@ function App() {
       <LatestArticles />
       <Background />
       {/* <div className="h-screen"></div> */}
+      <DeviceApp />
       <Footer />
     </main>
   );
