@@ -10,7 +10,7 @@ const Background = () => {
     const containerRef = ref.current;
     const pinBox = containerRef.offsetWidth;
     // const navigate = navBox.current;
-    console.log(pinBox);
+    console.log(3 * pinBox);
     gsap.to(containerRef, {
       scrollTrigger: {
         trigger: containerRef,
