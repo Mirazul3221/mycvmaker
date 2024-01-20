@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 const Background = () => {
-  const ref = useRef(null);
+  // const ref = useRef(null);
   const testRef = useRef(null);
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);

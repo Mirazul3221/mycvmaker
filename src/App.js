@@ -7,7 +7,7 @@ import Section02 from "./components/Section02";
 // import Section04 from "./components/Section04";
 import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
-import useLocoScroll from "./useLocoScroll";
+// import useLocoScroll from "./useLocoScroll";
 
 function App() {
   // useLocoScroll(true);
