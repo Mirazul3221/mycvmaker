@@ -2,9 +2,9 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="w-9/12">
-      <ul className="flex justify-end gap-6">
-        <li className="text-md font-normal text-[#5D61BF]">
+    <div className="md:w-9/12 ml-4 md:ml-0">
+      <ul className="md:flex justify-end space-y-5 md:space-y-0 gap-6">
+        <li className="text-md font-normal hidden md:block text-[#5D61BF]">
           <a href="#home">Home</a>
         </li>
         <li className="text-md font-normal text-[#5D61BF]">

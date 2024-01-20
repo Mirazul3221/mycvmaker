@@ -69,22 +69,22 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="mx-20">
-      <h2 className="text-lg font-medium text-[#5D61BF]">
+    <div className="md:mx-20 mx-4">
+      <h2 className="text-lg mt-4 md:mt-0 font-medium text-[#5D61BF]">
         WELCOME TO MY CV CREATOR
       </h2>
-      <div className="mt-4">
-        <h2 className="text-6xl text-[#212529] font-semibold">
+      <div className="md:mt-4">
+        <h2 className="md:text-6xl text-3xl text-[#212529] font-semibold">
           Create a <br /> compelling CV with <br /> AI assistance in <br />{" "}
           minutes.
         </h2>
       </div>
-      <div className="bottom flex justift-between">
-        <div className="left w-1/2">
+      <div className="bottom md:flex justift-between">
+        <div className="left md:w-1/2">
           <h3 className="text-2xl font-medium mt-8">
             Online resume builder with AI assistance
           </h3>
-          <p className="mt-2 w-2/3 text-lg">
+          <p className="mt-2 md:w-2/3 text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
             commodi, rem, molestias illum praesentium provident doloremque
           </p>
@@ -97,7 +97,7 @@ const Banner = () => {
             </a>
           </div>
         </div>
-        <div ref={ref} className="right w-1/2 px-10">
+        <div ref={ref} className="right w-1/2 md:block hidden px-10">
           <div className="relative w-full -mt-[35%]">
             <img ref={ref1} src="./images/desktop.png" alt="" />
             <img
