@@ -5,6 +5,7 @@ import DeviceApp from "./components/DeviceApp";
 import LatestArticles from "./components/LatestArticles";
 import Section01 from "./components/Section01";
 import Section02 from "./components/Section02";
+import TeatimonialSlider from "./components/TeatimonialSlider";
 // import Section03 from "./components/Section03";
 // import Section04 from "./components/Section04";
 import Footer from "./components/common/Footer";
@@ -25,6 +26,7 @@ function App() {
       <Counter />
       <Background />
       {/* <div className="h-screen"></div> */}
+      <TeatimonialSlider />
       <DeviceApp />
       <Footer />
     </main>

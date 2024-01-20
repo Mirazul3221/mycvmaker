@@ -9,6 +9,9 @@ p,h3{
     color: #212529;
 }
 
+.slick-slide >div{
+margin: 0 10px;
+}
 .banner_img{
   background-image: url('../src/back-img/background.jpg');
   background-size: cover;
