@@ -42,10 +42,10 @@ const Background = () => {
       >
         <div ref={navBox} className="ml-[1500px] w-screen h-full">
           <div className="left mt-28">
-            <h2 className="text-6xl text-[#212529] font-semibold">
+            <h2 className="text-6xl text-white text-[#212529] font-semibold">
               Get Better Solution For <br /> Your Resume.
             </h2>
-            <p className="text-white">
+            <p className="text-white w-1/2">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
               et voluptas magni ullam eos qui, velit sapiente consectetur
               placeat, magnam harum a blanditiis! Rem pariatur atque corrupti
