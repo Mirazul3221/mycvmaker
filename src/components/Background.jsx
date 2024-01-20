@@ -9,30 +9,30 @@ const Background = () => {
     gsap.registerPlugin(ScrollTrigger);
     const containerRef = ref.current;
     const pinBox = containerRef.offsetWidth;
-    const navigate = navBox.current;
+    // const navigate = navBox.current;
     console.log(pinBox);
     gsap.to(containerRef, {
       scrollTrigger: {
         trigger: containerRef,
         start: "top top",
         end: "bottom 100%",
-        // pin: true,
+        pin: true,
         scrub: true,
         markers: true,
       },
       x: 600,
     });
-    gsap.to(navigate, {
-      scrollTrigger: {
-        trigger: navigate,
-        start: "top top",
-        end: pinBox,
-        pin: true,
-        scrub: true,
-        // markers: true,
-      },
-      x: -7000,
-    });
+    // gsap.to(navigate, {
+    //   scrollTrigger: {
+    //     trigger: navigate,
+    //     start: "top top",
+    //     end: pinBox,
+    //     pin: true,
+    //     scrub: true,
+    //     // markers: true,
+    //   },
+    //   x: -7000,
+    // });
   }, []);
 
   return (
