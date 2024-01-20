@@ -62,6 +62,7 @@ const Background = () => {
           </div>
         </div>
       </div>
+      <div className="w-screen h-screen bg-amber-500"></div>
     </div>
   );
 };
