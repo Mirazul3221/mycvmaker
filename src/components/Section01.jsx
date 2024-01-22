@@ -8,12 +8,12 @@ import { FaFileSignature } from "react-icons/fa6";
 import { SiFiles } from "react-icons/si";
 const Section01 = () => {
   return (
-    <div className="p-10 mx-20">
+    <div className="md:p-10 p-4 md:mx-20 mx-4">
       <div className="text-center mt-10">
-        <h2 className="text-2xl">CREATE A CV IN MINUTES</h2>
-        <h3 className="text-5xl font-medium">Our Features.</h3>
+        <h2 className="md:text-2xl">CREATE A CV IN MINUTES</h2>
+        <h3 className="md:text-5xl text-3xl font-medium">Our Features.</h3>
       </div>
-      <div className=" grid grid-cols-3 mt-20 gap-10">
+      <div className=" md:grid grid-cols-3 md:mt-20 gap-10 space-y-4 md:space-y-0">
         <div className="item group hover:bg-white duration-200 hover:shadow-lg rounded-md cursor-pointer hover:-translate-y-2 px-6 py-10 bg-[#fff5ff]">
           <div className="icone w-full flex relative justify-center my-4 mx-auto">
             <GrDocumentPdf
@@ -97,8 +97,8 @@ const Section01 = () => {
         </div>
       </div>
 
-      <div className="mt-20 flex items-center gap-10">
-        <div className="left md:w-1/2">
+      <div className="md:mt-20 flex items-center gap-10">
+        <div className="left md:w-1/2 hidden md:block">
           <iframe
             width="560"
             height="315"
@@ -110,12 +110,12 @@ const Section01 = () => {
           ></iframe>
         </div>
         <div className="right md:w-1/2">
-          <h3 className="text-3xl">
+          <h3 className="md:text-3xl text-lg">
             What are the benefits of My Cv Creator online resume / CV Builder
             with AI assistance?
           </h3>
-          <div className="grid grid-cols-2 mt-4 w-full gap-10">
-            <div className="item">
+          <div className="md:grid grid-cols-2 mt-10 md:mt-4 w-full gap-10 md:space-y-0 space-y-4">
+            <div className="item bg-gray-200 px-4 py-2 md:bg-none md:px-0 md:py-0 rounded-md">
               <div className="flex gap-2">
                 <FaFileSignature size={30} color="#5e5e5e" />
                 <h2 className="text-lg">Cover Letter Builder</h2>
@@ -124,7 +124,7 @@ const Section01 = () => {
                 Write a cover letter using the same templates as your resume.
               </p>
             </div>
-            <div className="item mb">
+            <div className="item bg-gray-200 px-4 py-2 md:bg-none md:px-0 md:py-0 rounded-md">
               <div className="flex gap-2">
                 <SiFiles size={30} color="#5e5e5e" />
                 <h2 className="text-lg">Cover Letter Builder</h2>
@@ -134,7 +134,7 @@ const Section01 = () => {
                 resume.
               </p>
             </div>
-            <div className="item">
+            <div className="item bg-gray-200 px-4 py-2 md:bg-none md:px-0 md:py-0 rounded-md">
               <div className="flex gap-2">
                 <FaFileSignature size={30} color="#5e5e5e" />
                 <h2 className="text-lg">Cover Letter Builder</h2>
@@ -143,7 +143,7 @@ const Section01 = () => {
                 Write a cover letter using the same templates as your resume.
               </p>
             </div>
-            <div className="item mb">
+            <div className="item bg-gray-200 px-4 py-2 md:bg-none md:px-0 md:py-0 rounded-md">
               <div className="flex gap-2">
                 <SiFiles size={30} color="#5e5e5e" />
                 <h2 className="text-lg">Cover Letter Builder</h2>
@@ -153,7 +153,7 @@ const Section01 = () => {
                 resume.
               </p>
             </div>
-            <div className="item">
+            <div className="item bg-gray-200 px-4 py-2 md:bg-none md:px-0 md:py-0 rounded-md">
               <div className="flex gap-2">
                 <FaFileSignature size={30} color="#5e5e5e" />
                 <h2 className="text-lg">Cover Letter Builder</h2>
@@ -162,7 +162,7 @@ const Section01 = () => {
                 Write a cover letter using the same templates as your resume.
               </p>
             </div>
-            <div className="item mb">
+            <div className="item bg-gray-200 px-4 py-2 md:bg-none md:px-0 md:py-0 rounded-md">
               <div className="flex gap-2">
                 <SiFiles size={30} color="#5e5e5e" />
                 <h2 className="text-lg">Cover Letter Builder</h2>

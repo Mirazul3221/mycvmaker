@@ -35,7 +35,7 @@ const Background = () => {
   }, []);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen md:block hidden">
       <div
         ref={ref}
         className="banner_img h-screen flex justify-center items-center overflow-hidden relative"

@@ -2,12 +2,12 @@ import React from "react";
 
 const LatestArticles = () => {
   return (
-    <div className="p-20 bg-[#F4F7FC]">
+    <div className="md:p-20 p-4 bg-[#F4F7FC]">
       <div className="text-center mt-10">
-        <h2 className="text-2xl">CREATE A CV IN MINUTES</h2>
-        <h3 className="text-5xl font-medium">Our Features.</h3>
+        <h2 className="md:text-2xl text-lg">CREATE A CV IN MINUTES</h2>
+        <h3 className="md:text-5xl text-3xl font-medium">Our Features.</h3>
       </div>
-      <div className="bolg md:grid grid-cols-3 mt-20 gap-4 ">
+      <div className="bolg md:grid grid-cols-3 mt-20 gap-4 space-y-10 md:space-y-0">
         <div className="item shadow-sm border rounded-md relative group bg-white duration-500 ">
           <div className="img h-[300px] overflow-hidden flex justify-center items-center duration-500 z-20">
             <img

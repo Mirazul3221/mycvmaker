@@ -4,8 +4,8 @@ import { MdOutlineMessage } from "react-icons/md";
 import { IoShareSocialOutline } from "react-icons/io5";
 const Footer = () => {
   return (
-    <div className="bg-[#212529] pt-20">
-      <div className="top grid grid-cols-3 gap-10">
+    <div className="bg-[#212529] md:pt-20">
+      <div className="top md:grid grid-cols-3 gap-10">
         <div className="item px-10">
           <div className="heading">
             <h2 className="mb-2 text-2xl text-white">Contact Info</h2>
@@ -134,7 +134,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-8 px-10">
-        <div className="border-t-[1px] border-gray-600 py-8 flex justify-between">
+        <div className="border-t-[1px] border-gray-600 py-8 md:flex justify-between">
           <h3 className="text-gray-300">
             Copyright 2024 My Cv Creator. All rights reserved
           </h3>

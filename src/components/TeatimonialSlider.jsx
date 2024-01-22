@@ -39,11 +39,11 @@ const TeatimonialSlider = () => {
     ],
   };
   return (
-    <div className="p-20 bg-gray-200">
-      <div className="py-10">
-        <div className="text-center mt-10">
-          <h2 className="text-2xl">TESTIMONIALS</h2>
-          <h3 className="text-5xl font-medium">
+    <div className="md:p-20 bg-gray-200">
+      <div className="py-10 px-4 md:px-0">
+        <div className="text-center md:mt-10">
+          <h2 className="md:text-2xl">TESTIMONIALS</h2>
+          <h3 className="md:text-5xl text-3xl font-medium">
             Some Lovely Feedback From <br /> Our Clients.
           </h3>
         </div>

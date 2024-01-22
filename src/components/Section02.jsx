@@ -4,14 +4,14 @@ import { GiArchiveResearch } from "react-icons/gi";
 import { BiBook } from "react-icons/bi";
 const Section02 = () => {
   return (
-    <div className="bg-[#F4F7FC] mx-20 px-10 py-20">
+    <div className="bg-[#F4F7FC] md:mx-20 md:px-10 py-4 px-4 md:py-20">
       <div className="text-center mt-10">
-        <h2 className="text-2xl">HOW IT WORKS</h2>
-        <h3 className="text-5xl font-medium w-5/12 mx-auto">
+        <h2 className="md:text-2xl text-lg">HOW IT WORKS</h2>
+        <h3 className="md:text-5xl text-3xl font-medium md:w-5/12 mx-auto">
           Build your job-winning resume with AI assistance in three simple steps
         </h3>
       </div>
-      <div className="grid grid-cols-3 gap-10 mt-20">
+      <div className="md:grid grid-cols-3 gap-10 mt-20">
         <Item
           icone={<TbDeviceDesktopCog size={50} color="#f76da9" />}
           heading={"Step 1"}
@@ -34,8 +34,8 @@ const Section02 = () => {
 
       <div className="md:flex items-center gap-10 mt-10">
         <div className="left md:w-1/2">
-          <h2 className="text-2xl">WHY CHOOSE US</h2>
-          <h3 className="text-5xl my-4 font-medium mx-auto">
+          <h2 className="md:text-2xl text-lg">WHY CHOOSE US</h2>
+          <h3 className="md:text-5xl text-3xl my-4 font-medium mx-auto">
             SAY GOODBYE TO WRITER'S BLOCK.
           </h3>
           <p>

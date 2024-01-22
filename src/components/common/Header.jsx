@@ -10,11 +10,13 @@ const Header = () => {
     <div className="md:mx-20">
       <div className="flex md:hidden justify-between items-center bg-gray-200 py-2 md:bg-none px-4 md:px-0">
         <img className="md:w-36 w-28" src="./images/logo.png" alt="logo" />
-        <RxHamburgerMenu
-          onClick={() => setMenu(!menu)}
-          size={25}
-          color="gray"
-        />
+        <div className="flex justify-center items-center p-2 rounded-full bg-white">
+          <RxHamburgerMenu
+            onClick={() => setMenu(!menu)}
+            size={25}
+            color="gray"
+          />
+        </div>
       </div>
       <div className="md:flex hidden justify-between items-center py-4">
         <Logo />

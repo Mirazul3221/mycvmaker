@@ -15,7 +15,7 @@ const Counter = () => {
     >
       <div className="py-32 bg-[#5D61BF] flex justify-center items-center">
         {counter && (
-          <div className="flex gap-6">
+          <div className="md:flex gap-6 mx-6 md:mx-0 space-y-4 md:space-y-0">
             <div className="count px-10 py-2 border rounded-md">
               <span className="text-5xl text-white font-semibold">
                 <CountUp end={35000} duration={2.75} separator=" " />
