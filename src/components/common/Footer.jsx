@@ -2,7 +2,11 @@
 import { MdAddCall } from "react-icons/md";
 import { MdOutlineMessage } from "react-icons/md";
 import { IoShareSocialOutline } from "react-icons/io5";
+import { useContext } from "react";
+import globalState from "../global-commponent/useContex";
 const Footer = () => {
+  const data = useContext(globalState);
+  console.log(data);
   return (
     <div className="bg-[#212529] md:pt-20">
       <div className="top md:grid grid-cols-3 gap-10">
